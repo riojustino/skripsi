@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/almendra</item>
+        <item>@font/amiri_bold_italic</item>
+        <item>@font/amiri_italic</item>
+        <item>@font/belleza</item>
+        <item>@font/cairo</item>
+        <item>@font/contrail_one</item>
+        <item>@font/karma</item>
+        <item>@font/karma_medium</item>
+        <item>@font/macondo_swash_caps</item>
+        <item>@font/oswald</item>
+        <item>@font/oswald_bold</item>
+        <item>@font/oswald_light</item>
+        <item>@font/pacifico</item>
+        <item>@font/playfair_display_sc_bold</item>
+        <item>@font/redressed</item>
+    </array>
+</resources>

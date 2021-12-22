@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gejala">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.justino.sistempakar.MenuGejala.TambahGejala">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/penyakit"
+            android:drawableLeft="@drawable/ic_back"
+            android:drawableTint="@color/black"
+            android:padding="5dp"
+            android:text="Kembali"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="Tambah Gejala"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/button"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/gejalabaru"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:hint="Nama Gejala"
+                android:background="@drawable/custom_input"
+                android:backgroundTint="@color/penyakit"
+                android:layout_marginBottom="4dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginVertical="10dp"
+                android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="*Masukkan Gejala Baru"
+            android:textColor="@color/black"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/btntambah"
+            android:layout_marginTop="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/penyakit"
+            android:text="KONFIRMASI"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</LinearLayout>

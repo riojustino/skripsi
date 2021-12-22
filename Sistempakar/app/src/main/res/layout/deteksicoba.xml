@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    android:background="@color/utama"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:drawableLeft="@drawable/ic_back"
+            android:drawableTint="@color/black"
+            android:text="Kembali"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/contrail_one"
+            android:text="Selamat datang di Sipan"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/contrail_one"
+            android:text="*untuk panduan penggunaan silahkan tekan dibawah ini"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bantuan"
+            android:text="Bantuan"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:id="@+id/lin2"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/lin1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch7"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner7"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch8"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="10dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner8"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch9"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <Spinner
+                android:id="@+id/spinner9"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch10"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <Spinner
+                android:id="@+id/spinner10"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch11"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <Spinner
+                android:id="@+id/spinner11"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch12"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <Spinner
+                android:id="@+id/spinner12"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch13"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <Spinner
+                android:id="@+id/spinner13"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch14"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner14"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch15"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner15"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch16"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner16"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch17"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner17"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch18"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner18"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch19"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="9dp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner19"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch20"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner20"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch21"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner21"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch22"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner22"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch23"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="10dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner23"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch24"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="10sp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner24"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch25"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner25"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch26"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="10sp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner26"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@color/kuning"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch27"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner27"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch28"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner28"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch29"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                 />
+
+            <Spinner
+                android:id="@+id/spinner29"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch30"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner30"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch31"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner31"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch32"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="11sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner32"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch33"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner33"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch34"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner34"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@color/kuning"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch35"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner35"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch36"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner36"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch37"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                 />
+
+            <Spinner
+                android:id="@+id/spinner37"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch38"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner38"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@color/kuning"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch39"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner39"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch40"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner40"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch41"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="11sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner41"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch42"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner42"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch43"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner43"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch44"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner44"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch45"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner45"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch46"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner46"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@color/kuning"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch47"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner47"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch48"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner48"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch49"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner49"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch50"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="10sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner50"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch51"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="9sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner51"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch52"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner52"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch53"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="10sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner53"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch54"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="9sp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner54"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch55"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="9dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner55"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch56"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner56"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch57"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner57"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch58"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner58"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch59"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner59"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch60"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="10sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner60"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch61"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner61"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch62"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="10sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner62"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@color/kuning"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch63"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner63"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switch64"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+               />
+
+            <Spinner
+                android:id="@+id/spinner64"
+                android:minHeight="48dp"
+                android:background="@drawable/ic_deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Deteksi Penyakit"
+            android:textFontWeight="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

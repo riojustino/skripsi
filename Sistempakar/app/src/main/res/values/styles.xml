@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="ToastWrong">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">14dp</item>
+        <item name="stColorBackground">@color/shadow</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stLength">LONG</item>
+        <item name="stIconStart">@drawable/ic_baseline_close_24</item>
+    </style>
+    <style name="ToastSucces">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">14dp</item>
+        <item name="stColorBackground">#80c904</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stLength">LONG</item>
+        <item name="stIconStart">@drawable/ic_baseline_done_24</item>
+    </style>
+    <style name="ToastLengkap">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#66feff</item>
+        <item name="stTextSize">14dp</item>
+        <item name="stStrokeColor">#66feff</item>
+        <item name="stStrokeWidth">1dp</item>
+        <item name="stColorBackground">#808080</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stLength">LONG</item>
+    </style>
+</resources>

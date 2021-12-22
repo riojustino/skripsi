@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tentang">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/sipasu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sipasu"
+            android:layout_centerHorizontal="true"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Sipan V.1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/sipasu"
+            android:id="@+id/judul"
+            android:layout_height="wrap_content"
+            android:text="Implementasi Sistem Pakar Metode Certainty Factor"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBeranda"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/ic_back"
+            android:layout_marginLeft="10dp"
+            android:drawableTint="@color/tentang"
+            android:text="Kembali"
+            android:textColor="@color/tentang"
+            />
+
+        <ImageView
+            android:id="@+id/fotoaing"
+            android:layout_below="@+id/judul"
+            android:layout_width="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/tentangs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fotoaing"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/nama"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:text="Rio Justino"/>
+
+        <ImageView
+            android:id="@+id/ig"
+            android:layout_below="@+id/nama"
+            android:layout_marginLeft="120dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ig" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama"
+            android:layout_marginLeft="170dp"
+            android:id="@+id/namaig"
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:text="@riojustino"/>
+
+        <ImageView
+            android:id="@+id/wa"
+            android:layout_below="@+id/ig"
+            android:layout_marginLeft="120dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/wa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namaig"
+            android:layout_marginLeft="170dp"
+            android:id="@+id/namawa"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:text="08126011975"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namawa"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:id="@+id/akhir"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="©2021 - Developed by Rio Justino"/>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.justino.sistempakar.LoginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/bgbaru">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/rectangle_root"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:hint="Nama Pengguna"
+            android:textColorHint="@color/black"
+            android:textAlignment="center" />
+
+        <View
+            android:id="@+id/saparator"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/masuk" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginRight="60dp"
+            android:textColorHint="@color/black"
+            android:background="@drawable/rectangle_root"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint="***********"
+            android:textAlignment="center" />
+
+        <View
+            android:id="@+id/saparator1"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/masuk" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginRight="60dp"
+            android:textColorHint="@color/black"
+            android:background="@drawable/rectangle_root"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:hint="Email"
+            android:textAlignment="center" />
+
+        <View
+            android:id="@+id/saparator2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/masuk" />
+
+        <EditText
+            android:id="@+id/No_hp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/rectangle_root"
+            android:textColorHint="@color/black"
+            android:drawableLeft="@drawable/ic_phone_number"
+            android:hint="Nomor Telp"
+            android:textAlignment="center" />
+
+        <View
+            android:id="@+id/saparator3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/masuk" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="Peran Pengguna"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spinnerRole"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/ic_dropdown"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#494cf3"
+        android:src="@drawable/ic_baseline_arrow_forward_24" />
+
+    <TextView
+        android:id="@+id/tes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="40dp"
+        android:text="Daftar"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/masuk"
+        android:drawableLeft="@drawable/ic_back"
+        android:text="Kembali"
+        android:textColor="@color/black" />
+</RelativeLayout>
+

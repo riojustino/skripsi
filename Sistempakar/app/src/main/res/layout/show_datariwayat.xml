@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuRiwayat.TampilRiwayat"
+    android:background="@color/riwayat">
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/shadow"
+        android:drawableLeft="@drawable/ic_back"
+        android:drawableTint="@color/white"
+        android:text="Kembali"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/llViewTitle"
+        android:layout_marginTop="69dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Tabel Riwayat"
+            android:fontFamily="@font/karma"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llViewTitle"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewDeliveryProductList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/row_data_riwayat" />
+    </HorizontalScrollView>
+
+
+
+</RelativeLayout>

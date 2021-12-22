@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.justino.sistempakar.MenuBasis.TambahBasis">
+        <Button
+            android:id="@+id/btnback"
+            android:padding="5dp"
+            android:layout_gravity="left"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/view"
+            android:textColor="@color/black"
+            android:backgroundTint="@android:color/white"
+            android:drawableLeft="@drawable/ic_back"
+            android:text="Kembali"
+            android:textSize="12dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="12sp"
+                android:maxLines="1"
+                android:text="Tambah Menu"
+                android:textColor="@color/button"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <!--            android:inputType="textCapSentences"-->
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:textColor="@color/button"
+                android:textSize="15dp"
+                android:text="MB "
+                android:padding="10dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <EditText
+                android:id="@+id/mb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_input"
+                android:hint="MB"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/button"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <!--            android:inputType="textCapSentences"-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:textColor="@color/button"
+                android:textSize="15dp"
+                android:text="MD"
+                android:padding="10dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <EditText
+                android:id="@+id/md"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_input"
+                android:hint="MD"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/button"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_marginTop="40dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="180dp"
+            android:background="@drawable/view"
+            android:backgroundTint="@android:color/white"
+            android:text="Simpan"
+            android:textColor="@color/button"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

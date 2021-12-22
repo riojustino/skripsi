@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sipasu</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="underlined_text"><u>I\'m underlined</u></string>
+    <string name="pilihan"><u>Pilih Kondisi...</u></string>
+    <string name="p"><u>Penjelasan</u></string>
+    <string-array name="jabatan">
+        <item>Admin</item>
+        <item>Pakar</item>
+    </string-array>
+    <string-array name="kondisi">
+        <item>Pilih Kondisi...</item>
+        <item>Pasti ya</item>
+        <item>Hampir pasti ya</item>
+        <item>Kemungkinan besar ya</item>
+        <item>Mungkin ya</item>
+        <item>Tidak tahu</item>
+        <item>Mungkin tidak</item>
+        <item>Kemungkinan besar tidak</item>
+        <item>Hampir pasti tidak</item>
+        <item>Pasti tidak</item>
+    </string-array>
+</resources>

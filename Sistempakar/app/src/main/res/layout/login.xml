@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.justino.sistempakar.LoginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/bgbaru">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/ic_baseline_person_outline_24"
+            app:endIconContentDescription="Username"
+            android:textColorHint="@color/black"
+            android:hint="Nama Pengguna"
+            app:boxStrokeColor="@color/masuk"
+            app:boxStrokeWidth="0dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Username"
+                android:layout_width="match_parent"
+                android:background="@drawable/rectangle_root"
+                android:textColor="@color/black"
+                android:layout_marginTop="300dp"
+                android:layout_marginRight="60dp"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24"
+            app:endIconContentDescription="Password"
+            app:endIconMode="password_toggle"
+            android:hint="Kata Sandi"
+            android:layout_marginTop="10dp"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeColor="@color/masuk">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:background="@drawable/rectangle_root"
+                android:textColor="@color/black"
+                android:layout_marginRight="60dp"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBeranda"
+        android:text="Kembali"
+        android:backgroundTint="@color/masuk"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_back"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="0dp"
+        android:backgroundTint="#494cf3"
+        android:src="@drawable/ic_baseline_arrow_forward_24" />
+
+    <TextView
+        android:id="@+id/tes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/black"
+        android:text="Masuk"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRegisterr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="-10dp"
+        android:background="?android:selectableItemBackground"
+        android:backgroundTint="#E8E9E8"
+        android:text="Buat Akun Baru"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/saparator"
+        android:layout_below="@+id/btnRegisterr"
+        android:layout_width="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="5dp"
+        android:background="#000" />
+
+    <Button
+        android:id="@+id/btnResetp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginTop="500dp"
+        android:background="?android:selectableItemBackground"
+        android:backgroundTint="#E8E9E8"
+        android:text="Lupa Kata Sandi"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/saparator1"
+        android:layout_below="@+id/btnResetp"
+        android:layout_width="150dp"
+        android:layout_marginLeft="230dp"
+        android:layout_height="5dp"
+        android:background="#000" />
+
+
+</RelativeLayout>
+

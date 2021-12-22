@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/utama">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnback"
+            android:drawableLeft="@drawable/ic_back"
+            android:drawableTint="@color/black"
+            android:text="Kembali"
+            android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bantuan penggunaan Sipan"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/tutor1"
+        android:layout_gravity="center_horizontal">
+    </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tekan nama atau switch"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/tutor2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setelah ditekan switch akan berubah warna menjadi hijau, selanjutnya tekan dropdown"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/tutor3"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akan terbuka pilihan dari dropdown, lalu pilih salah satu"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/tutor4"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jika sudah terpilih tampilannya akan seperti ini"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/tutor5"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setelah memilih semua kemungkinan, terakhir tekan tombol deteksi penyakit yang berada di bagian paling bawah"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</ScrollView>

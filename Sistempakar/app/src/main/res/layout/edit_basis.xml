@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        tools:context="com.justino.sistempakar.MenuBasis.EditBasis">
+        <Button
+            android:id="@+id/backeditbasis"
+            android:padding="5dp"
+            android:layout_gravity="left"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/view"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_back"
+            android:text="KEMBALI"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDIT BASIS PENGETAHUAN"
+            android:textAlignment="center"
+            android:textColor="@color/button"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:textColor="@color/button"
+                android:textSize="15dp"
+                android:text="MB"
+                android:padding="10dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <EditText
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:id="@+id/mb"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/custom_input"
+                android:hint="  MB "
+                android:inputType="textPersonName"
+                android:textColor="@color/button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:textColor="@color/button"
+                android:textSize="15dp"
+                android:text="MD"
+                android:padding="10dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <EditText
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:id="@+id/md"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/custom_input"
+                android:hint="  MD "
+                android:inputType="textPersonName"
+                android:textColor="@color/button" />
+        </LinearLayout>
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/btnEditBasis"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/view"
+            android:text="Perbarui"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/btnDeleteBasis"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/view"
+            android:text="HAPUS"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+</ScrollView>

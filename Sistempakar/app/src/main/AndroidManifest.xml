@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.justino.sistempakar">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sistempakar">
+        <activity android:name="com.justino.sistempakar.ShowDeteksi" />
+        <activity android:name="com.justino.sistempakar.Dashboard" />
+        <activity android:name="com.justino.sistempakar.DashboardPakar" />
+        <activity android:name="com.justino.sistempakar.DashboardAdmin" />
+        <activity android:name="com.justino.sistempakar.DeteksiActivity" />
+        <activity android:name="com.justino.sistempakar.DeteksiCoba" />
+        <activity android:name="com.justino.sistempakar.RegisterActivity" />
+        <activity android:name="com.justino.sistempakar.LoginActivity" />
+        <activity android:name="com.justino.sistempakar.LupaPassword" />
+        <activity android:name="com.justino.sistempakar.ResetPassword" />
+        <activity android:name="com.justino.sistempakar.VerifikasiPassword" />
+        <activity android:name="com.justino.sistempakar.TampilRegistrasi" />
+        <activity android:name="com.justino.sistempakar.DetailRegister" />
+        <activity android:name="com.justino.sistempakar.TentangKami" />
+        <activity android:name="com.justino.sistempakar.Tutorial" />
+
+        <activity android:name="com.justino.sistempakar.MenuUser.TampilUser" />
+        <activity android:name="com.justino.sistempakar.MenuUser.EditUser" />
+
+        <activity android:name="com.justino.sistempakar.MenuGejala.TampilGejala" />
+        <activity android:name="com.justino.sistempakar.MenuGejala.EditGejala" />
+        <activity  android:name="com.justino.sistempakar.MenuGejala.TambahGejala" />
+
+        <activity android:name="com.justino.sistempakar.MenuPenyakit.EditDataPenyakit" />
+        <activity android:name="com.justino.sistempakar.MenuPenyakit.TampilDataPenyakit" />
+        <activity android:name="com.justino.sistempakar.MenuPenyakit.TampilDataPenyakitBeranda" />
+        <activity android:name="com.justino.sistempakar.MenuPenyakit.TambahDataPenyakit" />
+
+        <activity android:name="com.justino.sistempakar.MenuBerita.TambahDataBerita" />
+        <activity android:name="com.justino.sistempakar.MenuBerita.EditDataBerita" />
+        <activity android:name="com.justino.sistempakar.MenuBerita.TampilDataBerita" />
+        <activity android:name="com.justino.sistempakar.MenuBerita.TampilDataBeritaPakar" />
+
+        <activity android:name="com.justino.sistempakar.MenuRiwayat.TampilRiwayat" />
+        <activity
+            android:name="com.justino.sistempakar.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
